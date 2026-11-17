@@ -53,7 +53,7 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 34. Pesanan makan kelompok sulit dikonsolidasikan dari pilihan menu sampai pembagian pembayaran.
 35. Konsumen sulit menemukan penjual makanan rumahan terpercaya di radius dekat dengan jadwal menu yang jelas.
 36. Konsumen sulit mengetahui penyedia jasa rumah tangga yang benar-benar tersedia pada waktu yang dibutuhkan.
-37. Salon, barbershop, dan jasa berbasis appointment menghadapi double booking dan no-show karena booking masih lewat chat atau manual.
+37. Salon, barbershop, dan usaha jasa yang menggunakan sistem reservasi sering mengalami bentrok jadwal pemesanan (double booking) maupun pelanggan yang tidak hadir sesuai waktu yang telah disepakati (no-show) akibat proses reservasi yang masih dilakukan secara manual melalui chat.
 38. Pelanggan laundry kesulitan mengetahui status cucian dan waktu selesai tanpa bertanya melalui chat.
 39. Pemilik hewan kesulitan menemukan pet sitter atau boarding yang tersedia, dekat, dan memiliki rekam reputasi.
 40. Orang yang hanya sesekali membutuhkan kamera, alat camping, alat bayi, atau tools sulit menemukan penyewaan tepercaya di dekatnya.
@@ -72,7 +72,7 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 
 | Rank | ID | Business Problem | Score |
 |:----:|:--:|------------------|:-----:|
-| 1 | 37 | Double booking dan no-show pada jasa appointment | 94,5 |
+| 1 | 37 |Salon dan barbershop sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual | 94,5 |
 | 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal | 94,0 |
 | 3 | 31 | Makanan tidak terjual sulit disalurkan ke pembeli diskon | 91,5 |
 | 4 | 1 | Kesulitan menemukan partner olahraga yang cocok | 91,3 |
@@ -96,7 +96,7 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 ## TOP 5 Permasalahan
 | Rank | ID | Business Problem | Score |
 |:----:|:--:|------------------|:-----:|
-| 1 | 37 | Double booking dan no-show pada jasa appointment | 94,5 |
+| 1 | 37 | Salon dan barbershop sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual | 94,5 |
 | 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal | 94,0 |
 | 3 | 31 | Makanan tidak terjual sulit disalurkan ke pembeli diskon | 91,5 |
 | 4 | 1 | Kesulitan menemukan partner olahraga yang cocok | 91,3 |
