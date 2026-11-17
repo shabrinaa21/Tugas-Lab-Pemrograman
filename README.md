@@ -4,7 +4,7 @@ Nama Anggota Kelompok 3
 - Shabrina Aisyah Aulia (12010223140010)
 - Nisazka Syaula Hapsari (12010223140013)
 - Fitra Dya Bela Ivanto (12010223140064)
-- Shafira Yanindra Putri (120102231400
+- Shafira Yanindra Putri (120102231400)
   
 Daftar 50 Business Problems
 1. Sulit menemukan partner olahraga dengan lokasi, jadwal, dan level kemampuan yang cocok.
@@ -48,12 +48,12 @@ Daftar 50 Business Problems
 39. Pemilik hewan kesulitan menemukan pet sitter atau boarding yang tersedia, dekat, dan memiliki rekam reputasi.
 40. Orang yang hanya sesekali membutuhkan kamera, alat camping, alat bayi, atau tools sulit menemukan penyewaan tepercaya di dekatnya.
 41. Barang hilang di kampus, stasiun, atau lingkungan sering sulit dipertemukan dengan penemu karena informasi tersebar.
-44. Orang yang pindah kota atau memiliki hobi baru sulit menemukan komunitas lokal yang aktif dan sesuai minat.
-Calon relawan kesulitan menemukan kegiatan volunteer lokal yang sesuai waktu, lokasi, dan kemampuan.
-Warga kesulitan mengetahui lokasi bank sampah, jenis sampah yang diterima, harga, dan jadwal penyerahan atau pickup.
-Warga atau mahasiswa memiliki barang jarang dipakai tetapi tidak memiliki cara aman untuk meminjamkan atau menyewakannya ke lingkungan sekitar.
-Seller menerima order dari WhatsApp, Instagram, marketplace, dan offline sehingga pesanan mudah tercecer.
-UMKM retail atau F&B sering terlambat restock karena catatan stok dan batas minimum tidak terkelola.
-Pemilik usaha mikro sulit mengetahui kas dan laba karena pencatatan pemasukan-pengeluaran tidak konsisten.
-UMKM tidak memiliki sistem sederhana untuk mengingat pelanggan lama dan mendorong repeat purchase.
-Pemilik UMKM kesulitan menjaga kalender konten dan menilai konten mana yang menghasilkan leads atau penjualan.
+42. Orang yang pindah kota atau memiliki hobi baru sulit menemukan komunitas lokal yang aktif dan sesuai minat.
+43. Calon relawan kesulitan menemukan kegiatan volunteer lokal yang sesuai waktu, lokasi, dan kemampuan.
+44. Warga kesulitan mengetahui lokasi bank sampah, jenis sampah yang diterima, harga, dan jadwal penyerahan atau pickup.
+45. Warga atau mahasiswa memiliki barang jarang dipakai tetapi tidak memiliki cara aman untuk meminjamkan atau menyewakannya ke lingkungan sekitar.
+46. Seller menerima order dari WhatsApp, Instagram, marketplace, dan offline sehingga pesanan mudah tercecer.
+47. UMKM retail atau F&B sering terlambat restock karena catatan stok dan batas minimum tidak terkelola.
+48. Pemilik usaha mikro sulit mengetahui kas dan laba karena pencatatan pemasukan-pengeluaran tidak konsisten.
+49. UMKM tidak memiliki sistem sederhana untuk mengingat pelanggan lama dan mendorong repeat purchase.
+50. Pemilik UMKM kesulitan menjaga kalender konten dan menilai konten mana yang menghasilkan leads atau penjualan.
