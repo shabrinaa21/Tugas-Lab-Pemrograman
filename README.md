@@ -15,6 +15,17 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 
 ## Tahapan dan Progress
 
+## Tahapan dan Progres
+
+| Tahap | Kegiatan | Status |
+|---|---|---|
+| 1 | Mengumpulkan 50 permasalahan bisnis beserta data pendukung | Selesai |
+| 2 | Analisis kelayakan bisnis | Dalam Proses |
+| 3 | Pengembangan produk startup | Belum Dimulai |
+| 4 | Strategi pemasaran produk | Belum Dimulai |
+| 5 | Evaluasi Return on Advertising Spend (ROAS) | Belum Dimulai |
+
+
 
 ## Daftar 50 Business Problems 
 1. Sulit menemukan partner olahraga dengan lokasi, jadwal, dan level kemampuan yang cocok.
