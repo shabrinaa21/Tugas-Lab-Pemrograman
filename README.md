@@ -1,12 +1,12 @@
 # Tugas-Lab-Pemrograman
-## Anggota Kelompok Kelompok 3
+## Anggota Kelompok 3
 - Alicia Sandra Elgina LB (12010223140004)
 - Shabrina Aisyah Aulia (12010223140010)
 - Nisazka Syaula Hapsari (12010223140013)
 - Fitra Dya Bela Ivanto (12010223140064)
 - Shafira Yanindra Putri (120102231400)
   
-**Daftar 50 Business Problems** 
+## Daftar 50 Business Problems 
 1. Sulit menemukan partner olahraga dengan lokasi, jadwal, dan level kemampuan yang cocok.
 2. Sulit menemukan slot lapangan olahraga yang tersedia sekaligus membagi biaya dengan pemain lain.
 3. Pemula sulit menemukan kelas atau komunitas olahraga yang ramah pemula dan dekat lokasi.
