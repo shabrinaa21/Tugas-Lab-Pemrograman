@@ -94,4 +94,10 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 | 20 | 36 | Kesulitan menemukan jasa rumah tangga yang tersedia | 86,0 |
 
 ## TOP 5 PERMASALAHAN 
-
+| Rank | ID | Business Problem | Score |
+|:----:|:--:|------------------|:-----:|
+| 1 | 37 | Double booking dan no-show pada jasa appointment | 94,5 |
+| 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal | 94,0 |
+| 3 | 31 | Makanan tidak terjual sulit disalurkan ke pembeli diskon | 91,5 |
+| 4 | 1 | Kesulitan menemukan partner olahraga yang cocok | 91,3 |
+| 5 | 7 | Kesulitan menemukan roommate yang cocok | 90,9 |
