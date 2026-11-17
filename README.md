@@ -109,6 +109,6 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 |:----:|:--:|------------------|:-----:|
 | 1 | 37 | Salon dan barbershop sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual | 94,5 |
 | 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal | 94,0 |
-| 3 | 31 | Makanan tidak terjual sulit disalurkan ke pembeli diskon | 91,5 |
-| 4 | 1 | Kesulitan menemukan partner olahraga yang cocok | 91,3 |
+| 7 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi | 89,5 |
+| 14 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio | 87,0 |
 | 5 | 7 | Kesulitan menemukan roommate yang cocok | 90,9 |
