@@ -5,7 +5,10 @@
 - Nisazka Syaula Hapsari (12010223140013)
 - Fitra Dya Bela Ivanto (12010223140064)
 - Shafira Yanindra Putri (120102231400)
-  
+
+**## Ringkasan Lab Pemrograman **
+
+
 ## Daftar 50 Business Problems 
 1. Sulit menemukan partner olahraga dengan lokasi, jadwal, dan level kemampuan yang cocok.
 2. Sulit menemukan slot lapangan olahraga yang tersedia sekaligus membagi biaya dengan pemain lain.
