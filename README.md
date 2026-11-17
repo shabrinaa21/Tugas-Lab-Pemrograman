@@ -4,7 +4,7 @@
 - Shabrina Aisyah Aulia (12010223140010)
 - Nisazka Syaula Hapsari (12010223140013)
 - Fitra Dya Bela Ivanto (12010223140064)
-- Shafira Yanindra Putri (120102231400)
+- Shafira Yanindra Putri (12010223140074)
 
 ## Ringkasan Lab Pemrograman
 Penugasan Project Lab Pemrograman bertujuan melatih mahasiswa dalam mengidentifikasi permasalahan nyata di masyarakat dan mengembangkannya menjadi peluang bisnis berbasis teknologi digital. Melalui pendekatan 50–20–5–1, mahasiswa melakukan seleksi dan analisis kelayakan ide bisnis, menentukan kandidat produk Minimum Viable Product (MVP), serta melakukan pemasaran digital. Selanjutnya, performa produk dievaluasi berdasarkan Return on Ad Spend (ROAS) untuk menentukan produk dengan potensi terbaik. Penugasan ini diharapkan dapat mengembangkan kemampuan mahasiswa dalam pemrograman, analisis bisnis, pemecahan masalah, dan kewirausahaan digital.
