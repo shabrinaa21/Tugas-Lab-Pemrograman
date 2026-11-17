@@ -63,3 +63,27 @@ Penugasan Project Lab Pemrograman bertujuan melatih mahasiswa dalam mengidentifi
 49. UMKM tidak memiliki sistem sederhana untuk mengingat pelanggan lama dan mendorong repeat purchase.
 50. Pemilik UMKM kesulitan menjaga kalender konten dan menilai konten mana yang menghasilkan leads atau penjualan.
 
+**Seleksi 20 Masalah**
+
+| Rank | ID | Business Problem | Score |
+|:----:|:--:|------------------|:-----:|
+| 1 | 37 | Double booking dan no-show pada jasa appointment | 94,5 |
+| 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal | 94,0 |
+| 3 | 31 | Makanan tidak terjual sulit disalurkan ke pembeli diskon | 91,5 |
+| 4 | 1 | Kesulitan menemukan partner olahraga yang cocok | 91,3 |
+| 5 | 7 | Kesulitan menemukan roommate yang cocok | 90,9 |
+| 6 | 32 | Kesulitan menemukan paket makan harian sesuai kebutuhan | 90,9 |
+| 7 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi | 89,5 |
+| 8 | 47 | UMKM terlambat restock karena pengelolaan stok | 89,5 |
+| 9 | 48 | UMKM kesulitan mengetahui kondisi kas dan laba | 89,5 |
+| 10 | 21 | Fresh graduate kesulitan mengetahui gap CV | 89,0 |
+| 11 | 33 | Antrean kantin dan tidak adanya pre-order pickup | 88,0 |
+| 12 | 49 | UMKM kesulitan mendorong repeat purchase | 88,0 |
+| 13 | 2 | Kesulitan menemukan slot lapangan dan membagi biaya | 87,5 |
+| 14 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio | 87,0 |
+| 15 | 6 | Kesulitan memastikan kondisi aktual kos | 86,5 |
+| 16 | 50 | UMKM kesulitan mengelola kalender konten dan leads | 86,5 |
+| 17 | 5 | Kesulitan menjaga konsistensi olahraga | 86,0 |
+| 18 | 12 | Kesulitan menemukan carpool yang aman | 86,0 |
+| 19 | 18 | Kesulitan mendapatkan bantuan belajar spesifik | 86,0 |
+| 20 | 36 | Kesulitan menemukan jasa rumah tangga yang tersedia | 86,0 |
