@@ -10,6 +10,9 @@
 
 Penugasan Project Lab Pemrograman bertujuan melatih mahasiswa dalam mengidentifikasi permasalahan nyata di masyarakat dan mengembangkannya menjadi peluang bisnis berbasis teknologi digital. Melalui pendekatan 50–20–5–1, mahasiswa melakukan seleksi dan analisis kelayakan ide bisnis, menentukan kandidat produk Minimum Viable Product (MVP), serta melakukan pemasaran digital. Selanjutnya, performa produk dievaluasi berdasarkan Return on Ad Spend (ROAS) untuk menentukan produk dengan potensi terbaik. Penugasan ini diharapkan dapat mengembangkan kemampuan mahasiswa dalam pemrograman, analisis bisnis, pemecahan masalah, dan kewirausahaan digital.
 
+## DOKUMEN PROGRESS
+Dokumentasi perkembangan proyek disusun dan dikelola secara berkala melalui Google Docs sebagai media pencatatan hasil pengerjaan dan pembaruan setiap tahapan
+https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/edit?tab=t.0
 
 ## Daftar 50 Business Problems 
 1. Sulit menemukan partner olahraga dengan lokasi, jadwal, dan level kemampuan yang cocok.
@@ -62,6 +65,15 @@ Penugasan Project Lab Pemrograman bertujuan melatih mahasiswa dalam mengidentifi
 48. Pemilik usaha mikro sulit mengetahui kas dan laba karena pencatatan pemasukan-pengeluaran tidak konsisten.
 49. UMKM tidak memiliki sistem sederhana untuk mengingat pelanggan lama dan mendorong repeat purchase.
 50. Pemilik UMKM kesulitan menjaga kalender konten dan menilai konten mana yang menghasilkan leads atau penjualan.
+
+## TAHAPAN PROGRESS
+
+
+
+
+
+
+
 
 **Seleksi 20 Masalah**
 
