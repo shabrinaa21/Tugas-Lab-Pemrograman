@@ -75,7 +75,7 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 49. UMKM tidak memiliki sistem sederhana untuk mengingat pelanggan lama dan mendorong repeat purchase.
 50. Pemilik UMKM kesulitan menjaga kalender konten dan menilai konten mana yang menghasilkan leads atau penjualan.
 
-**Seleksi 20 Masalah**
+## Seleksi 20 Masalah 
 
 | Rank | ID | Business Problem | Score |
 |:----:|:--:|------------------|:-----:|
