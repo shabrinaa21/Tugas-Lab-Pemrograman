@@ -9,7 +9,7 @@
 ## Ringkasan Lab Pemrograman
 Penugasan Project Lab Pemrograman bertujuan melatih mahasiswa dalam mengidentifikasi permasalahan nyata di masyarakat dan mengembangkannya menjadi peluang bisnis berbasis teknologi digital. Melalui pendekatan 50–20–5–1, mahasiswa melakukan seleksi dan analisis kelayakan ide bisnis, menentukan kandidat produk Minimum Viable Product (MVP), serta melakukan pemasaran digital. Selanjutnya, performa produk dievaluasi berdasarkan Return on Ad Spend (ROAS) untuk menentukan produk dengan potensi terbaik. Penugasan ini diharapkan dapat mengembangkan kemampuan mahasiswa dalam pemrograman, analisis bisnis, pemecahan masalah, dan kewirausahaan digital.
 
-## DOKUMEN PROGRESS
+## Dokumen Progress
 Dokumentasi perkembangan proyek disusun dan dikelola secara berkala melalui Google Docs sebagai media pencatatan hasil pengerjaan dan pembaruan setiap tahapan
 https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/edit?tab=t.0
 
@@ -93,7 +93,7 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 | 19 | 18 | Kesulitan mendapatkan bantuan belajar spesifik | 86,0 |
 | 20 | 36 | Kesulitan menemukan jasa rumah tangga yang tersedia | 86,0 |
 
-## TOP 5 PERMASALAHAN 
+## TOP 5 Permasalahan
 | Rank | ID | Business Problem | Score |
 |:----:|:--:|------------------|:-----:|
 | 1 | 37 | Double booking dan no-show pada jasa appointment | 94,5 |
