@@ -100,6 +100,9 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 | 19 | 18 | Kesulitan mendapatkan bantuan belajar spesifik | 86,0 |
 | 20 | 36 | Kesulitan menemukan jasa rumah tangga yang tersedia | 86,0 |
 
+## Ringkasan Tahapan Kedua
+Pada tahap ini, 50 masalah diseleksi menggunakan lima kriteria penilaian, yaitu kesesuaian solusi produk, kesediaan pengguna untuk membayar, intensitas persaingan, bukti permintaan pasar, dan kemudahan promosi, dengan skala 1-5. Dari penilaian tersebut, 5 masalah dinyatakan layak, 19 dapat dipertimbangkan, dan 26 dinilai kurang layak.
+
 ## TOP 5 Permasalahan
 | Rank | ID | Business Problem | Score |
 |:----:|:--:|------------------|:-----:|
