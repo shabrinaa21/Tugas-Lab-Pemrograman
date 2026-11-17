@@ -18,13 +18,12 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 ## Tahapan dan Progres
 
 | Tahap | Kegiatan | Status |
-|---|---|---|
-| 1 | Mengumpulkan 50 permasalahan bisnis beserta data pendukung | Selesai |
-| 2 | Analisis kelayakan bisnis | Dalam Proses |
-| 3 | Pengembangan produk startup | Belum Dimulai |
-| 4 | Strategi pemasaran produk | Belum Dimulai |
-| 5 | Evaluasi Return on Advertising Spend (ROAS) | Belum Dimulai |
-
+|:-----:|----------|:------:|
+| 1 | Identifikasi 50 permasalahan bisnis beserta data pendukung. | Selesai |
+| 2 | Evaluasi kelayakan bisnis dan seleksi peluang potensial. | Selesai |
+| 3 | Pengembangan lima kandidat produk startup teknologi. | Belum |
+| 4 | Pelaksanaan pemasaran terhadap lima produk. | Belum |
+| 5 | Penentuan produk unggulan berdasarkan nilai ROAS tertinggi. | Belum |
 
 
 ## Daftar 50 Business Problems 
