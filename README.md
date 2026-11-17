@@ -14,9 +14,6 @@ Dokumentasi perkembangan proyek disusun dan dikelola secara berkala melalui Goog
 https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/edit?tab=t.0
 
 ## Tahapan dan Progress
-
-## Tahapan dan Progres
-
 | Tahap | Kegiatan | Status |
 |:-----:|----------|:------:|
 | 1 | Identifikasi 50 permasalahan bisnis beserta data pendukung. | Selesai |
