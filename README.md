@@ -7,12 +7,14 @@
 - Shafira Yanindra Putri (120102231400)
 
 ## Ringkasan Lab Pemrograman
-
 Penugasan Project Lab Pemrograman bertujuan melatih mahasiswa dalam mengidentifikasi permasalahan nyata di masyarakat dan mengembangkannya menjadi peluang bisnis berbasis teknologi digital. Melalui pendekatan 50–20–5–1, mahasiswa melakukan seleksi dan analisis kelayakan ide bisnis, menentukan kandidat produk Minimum Viable Product (MVP), serta melakukan pemasaran digital. Selanjutnya, performa produk dievaluasi berdasarkan Return on Ad Spend (ROAS) untuk menentukan produk dengan potensi terbaik. Penugasan ini diharapkan dapat mengembangkan kemampuan mahasiswa dalam pemrograman, analisis bisnis, pemecahan masalah, dan kewirausahaan digital.
 
 ## DOKUMEN PROGRESS
 Dokumentasi perkembangan proyek disusun dan dikelola secara berkala melalui Google Docs sebagai media pencatatan hasil pengerjaan dan pembaruan setiap tahapan
 https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/edit?tab=t.0
+
+## Tahapan dan Progress
+
 
 ## Daftar 50 Business Problems 
 1. Sulit menemukan partner olahraga dengan lokasi, jadwal, dan level kemampuan yang cocok.
@@ -66,15 +68,6 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 49. UMKM tidak memiliki sistem sederhana untuk mengingat pelanggan lama dan mendorong repeat purchase.
 50. Pemilik UMKM kesulitan menjaga kalender konten dan menilai konten mana yang menghasilkan leads atau penjualan.
 
-## TAHAPAN PROGRESS
-
-
-
-
-
-
-
-
 **Seleksi 20 Masalah**
 
 | Rank | ID | Business Problem | Score |
@@ -99,3 +92,6 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 | 18 | 12 | Kesulitan menemukan carpool yang aman | 86,0 |
 | 19 | 18 | Kesulitan mendapatkan bantuan belajar spesifik | 86,0 |
 | 20 | 36 | Kesulitan menemukan jasa rumah tangga yang tersedia | 86,0 |
+
+## TOP 5 PERMASALAHAN 
+
