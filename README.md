@@ -108,6 +108,6 @@ Pada tahap ini, 50 masalah diseleksi menggunakan lima kriteria penilaian, yaitu 
 |:----:|:--:|------------------|:-----:|
 | 1 | 37 | Salon dan barbershop sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual | 94,5 |
 | 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal | 94,0 |
-| 7 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi | 89,5 |
-| 14 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio | 87,0 |
+| 3 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi | 89,5 |
+| 4 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio | 87,0 |
 | 5 | 7 | Kesulitan menemukan roommate yang cocok | 90,9 |
