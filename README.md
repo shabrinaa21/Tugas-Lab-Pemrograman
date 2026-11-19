@@ -79,26 +79,26 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 
 | Rank | ID | Business Problem | Score |
 |:----:|:--:|------------------|:-----:|
-| 1 | 37 |Salon sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual | 94,5 |
-| 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal | 94,0 |
-| 3 | 31 | Makanan tidak terjual sulit disalurkan ke pembeli diskon | 91,5 |
-| 4 | 1 | Kesulitan menemukan partner olahraga yang cocok | 91,3 |
-| 5 | 7 | Kesulitan menemukan roommate yang cocok | 90,9 |
-| 6 | 32 | Kesulitan menemukan paket makan harian sesuai kebutuhan | 90,9 |
-| 7 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi | 89,5 |
-| 8 | 47 | UMKM terlambat restock karena pengelolaan stok | 89,5 |
-| 9 | 48 | UMKM kesulitan mengetahui kondisi kas dan laba | 89,5 |
-| 10 | 21 | Fresh graduate kesulitan mengetahui gap CV | 89,0 |
-| 11 | 33 | Antrean kantin dan tidak adanya pre-order pickup | 88,0 |
-| 12 | 49 | UMKM kesulitan mendorong repeat purchase | 88,0 |
-| 13 | 2 | Kesulitan menemukan slot lapangan dan membagi biaya | 87,5 |
-| 14 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio | 87,0 |
-| 15 | 6 | Kesulitan memastikan kondisi aktual kos | 86,5 |
-| 16 | 50 | UMKM kesulitan mengelola kalender konten dan leads | 86,5 |
-| 17 | 5 | Kesulitan menjaga konsistensi olahraga | 86,0 |
-| 18 | 12 | Kesulitan menemukan carpool yang aman | 86,0 |
-| 19 | 18 | Kesulitan mendapatkan bantuan belajar spesifik | 86,0 |
-| 20 | 36 | Kesulitan menemukan jasa rumah tangga yang tersedia | 86,0 |
+| 1 | 37 |Salon sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual 
+| 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal 
+| 3 | 31 | Makanan tidak terjual sulit disalurkan ke pembeli diskon 
+| 4 | 1 | Kesulitan menemukan partner olahraga yang cocok 
+| 5 | 7 | Kesulitan menemukan roommate yang cocok 
+| 6 | 32 | Kesulitan menemukan paket makan harian sesuai kebutuhan 
+| 7 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi 
+| 8 | 47 | UMKM terlambat restock karena pengelolaan stok 
+| 9 | 48 | UMKM kesulitan mengetahui kondisi kas dan laba 
+| 10 | 21 | Fresh graduate kesulitan mengetahui gap CV 
+| 11 | 33 | Antrean kantin dan tidak adanya pre-order pickup 
+| 12 | 49 | UMKM kesulitan mendorong repeat purchase 
+| 13 | 2 | Kesulitan menemukan slot lapangan dan membagi biaya 
+| 14 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio 
+| 15 | 6 | Kesulitan memastikan kondisi aktual kos 
+| 16 | 50 | UMKM kesulitan mengelola kalender konten dan leads 
+| 17 | 5 | Kesulitan menjaga konsistensi olahraga 
+| 18 | 12 | Kesulitan menemukan carpool yang aman 
+| 19 | 18 | Kesulitan mendapatkan bantuan belajar spesifik
+| 20 | 36 | Kesulitan menemukan jasa rumah tangga yang tersedia 
 
 ## Ringkasan Tahapan Kedua
 Pada tahap ini, 50 masalah diseleksi menggunakan lima kriteria penilaian, yaitu kesesuaian solusi produk, kesediaan pengguna untuk membayar, intensitas persaingan, bukti permintaan pasar, dan kemudahan promosi, dengan skala 1-5. Dari penilaian tersebut, 5 masalah dinyatakan layak, 19 dapat dipertimbangkan, dan 26 dinilai kurang layak.
@@ -106,8 +106,8 @@ Pada tahap ini, 50 masalah diseleksi menggunakan lima kriteria penilaian, yaitu 
 ## TOP 5 Permasalahan
 | Rank | ID | Business Problem | Score |
 |:----:|:--:|------------------|:-----:|
-| 1 | 37 | Salon sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual | 94,5 |
-| 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal | 94,0 |
-| 3 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi | 89,5 |
-| 4 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio | 87,0 |
-| 5 | 7 | Kesulitan menemukan roommate yang cocok | 90,9 |
+| 1 | 37 | Salon sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual 
+| 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal 
+| 3 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi 
+| 4 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio 
+| 5 | 7 | Kesulitan menemukan roommate yang cocok 
