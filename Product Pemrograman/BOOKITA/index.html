@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7d7e9"><title>BOOKITA — Book Your Beauty Moment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="customer-body">
+<header class="customer-nav"><a class="logo" href="index.html"><span class="logo-flower">✿</span> BOOKITA</a><nav><a href="#services">Services</a><a href="#how">How it works</a><a href="admin.html" class="admin-link">Admin portal ↗</a></nav><a class="nav-cta" href="#booking">Book appointment</a><button class="mobile-nav-toggle" id="mobileNav">☰</button></header>
+<main>
+<section class="hero">
+ <div class="hero-copy"><span class="eyebrow pink-eyebrow">YOUR BEAUTY, YOUR TIME</span><h1>Book Your<br><i>Beauty Moment.</i></h1><p>Temukan layanan kecantikan favoritmu dan pesan jadwal salon tanpa antre, tanpa khawatir jadwal bentrok.</p><div class="hero-actions"><a class="btn-primary" href="#booking">Book an appointment <span>→</span></a><a class="text-link" href="#services">Explore services</a></div><div class="hero-trust"><div class="trust-avatars"><span>A</span><span>N</span><span>M</span></div><div><b>Easy, quick & organized</b><small>Reservasi salon dalam beberapa langkah</small></div></div></div>
+ <div class="hero-visual"><div class="hero-photo"><div class="photo-label"><span>✦</span><div><b>Your moment matters</b><small>Make time for yourself</small></div></div></div><div class="floating-card"><span class="float-icon">♡</span><div><b>Your next beauty day?</b><small>Choose a slot that works for you.</small></div></div><div class="hero-orb"></div></div>
+</section>
+<section class="benefit-strip" id="how"><div><span>▦</span><b>Real-time slots</b><small>Pilih jadwal yang tersedia</small></div><div><span>♧</span><b>Easy reservation</b><small>Booking lebih praktis</small></div><div><span>✓</span><b>Booking confirmation</b><small>Status reservasi jelas</small></div><div><span>♡</span><b>Reminder ready</b><small>Pengingat sebelum kunjungan*</small></div></section>
+<section class="section services-section" id="services"><div class="section-heading"><div><span class="eyebrow">A LITTLE SELF-CARE</span><h2>Find your <i>perfect service.</i></h2><p>Pilih layanan yang sesuai dengan kebutuhanmu.</p></div><span class="section-flower">✿</span></div><div class="service-grid" id="serviceGrid"><div class="loading-card">Memuat layanan...</div></div></section>
+<section class="booking-section" id="booking"><div class="booking-intro"><span class="eyebrow">LET'S MAKE IT HAPPEN</span><h2>Your appointment,<br><i>your way.</i></h2><p>Isi detail reservasi dan pilih slot yang masih tersedia. Sistem akan membantu mencegah jadwal yang bertabrakan.</p><div class="booking-note"><span>✦</span><p><b>Smart Slot Protection</b><br>Slot yang sudah dipesan tidak bisa dipilih pelanggan lain untuk stylist dan waktu yang sama.</p></div></div>
+<div class="booking-card"><div class="booking-card-head"><div><span class="step-label">BOOKING FORM · 01</span><h3>Book an appointment</h3><p>Lengkapi informasi di bawah ini.</p></div><span class="card-flower">✿</span></div>
+<form id="customerBookingForm">
+<div class="form-section-title">01 <span>Your details</span></div>
+<div class="field-grid"><label>Full name<input name="customer_name" required placeholder="Nama lengkap"></label><label>WhatsApp number<input name="phone" required inputmode="tel" placeholder="08xxxxxxxxxx"></label></div>
+<div class="form-section-title">02 <span>Choose your service</span></div>
+<div class="field-grid"><label>Service<select name="service_id" id="serviceSelect" required><option value="">Pilih layanan</option></select></label><label>Specialist<select name="staff_id" id="staffSelect" required><option value="">Pilih stylist</option></select></label></div>
+<div class="form-section-title">03 <span>Select date & time</span></div>
+<div class="field-grid"><label>Appointment date<input type="date" name="booking_date" id="bookingDate" required></label><label>Available time<select name="slot" id="slotSelect" required><option value="">Pilih layanan, stylist & tanggal</option></select></label></div>
+<div class="availability-note" id="availabilityNote">Pilih layanan, stylist, dan tanggal untuk melihat slot tersedia.</div>
+<label class="full-field">Notes (optional)<textarea name="notes" rows="2" placeholder="Ada request khusus?"></textarea></label>
+<button class="btn-primary submit-booking" type="submit" id="submitBooking">Confirm my booking <span>→</span></button>
+<p class="form-disclaimer">Dengan mengirim reservasi, kamu menyetujui salon menghubungi melalui WhatsApp terkait jadwal booking.</p>
+</form></div></section>
+<section class="my-booking-section"><div><span class="eyebrow">NEED TO CHECK?</span><h2>Already booked?</h2><p>Cek status reservasi menggunakan kode booking dan nomor WhatsApp.</p></div><form id="lookupForm" class="lookup-form"><input name="code" required placeholder="Kode booking (contoh: BK...)"><input name="phone" required placeholder="Nomor WhatsApp"><button class="btn-dark">Check booking →</button><div id="lookupResult" class="lookup-result"></div></form></section>
+</main>
+<footer><a class="logo" href="#"><span class="logo-flower">✿</span> BOOKITA</a><span>Book smart. Feel beautiful.</span><span>© 2026 BOOKITA · <a href="admin.html">Admin portal</a></span></footer>
+<div class="toast" id="toast" role="status"></div><div class="success-modal" id="successModal"><div class="success-card"><button class="close-modal" id="closeSuccess">×</button><div class="success-mark">✓</div><span class="eyebrow">YOU'RE ALL SET</span><h2>Booking confirmed!</h2><p>Reservasimu berhasil dicatat. Simpan kode booking berikut.</p><div class="booking-code"><small>BOOKING CODE</small><b id="successCode">BK000000</b></div><div id="successDetails"></div><button class="btn-primary" id="doneSuccess">Done, thank you ♡</button></div></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="customer.js"></script>
+</body></html>

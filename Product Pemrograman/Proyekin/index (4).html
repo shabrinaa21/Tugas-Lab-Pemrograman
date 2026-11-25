@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proyekin: proyek nyata untuk portofolio mahasiswa</title>
+<meta name="description" content="Ambil proyek nyata dari UMKM, komunitas, dan lembaga sosial. Selesaikan, lalu tampilkan hasilnya di portofolio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf8ff;--surface:#fff;--text:#1b1535;--muted:#645f7e;--line:#e6e1f5;--ink:#150f2e;--violet:#6b4eff;--lime:#d6f54a;--coral:#ff7a59;--sky:#69cdfc;--pink:#ffa3d7;--r:22px}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f0b21;--surface:#1a1535;--text:#f1eeff;--muted:#a8a2c8;--line:#2d2650}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1.02rem/1.65 Figtree,system-ui,sans-serif}
+h1,h2,h3{font-family:'Bricolage Grotesque',Figtree,system-ui,sans-serif;line-height:1.05;margin:0;letter-spacing:-.025em}
+a{color:inherit}:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.btn{display:inline-block;border:0;cursor:pointer;font:700 1rem Figtree,sans-serif;padding:14px 26px;border-radius:999px;background:var(--lime);color:var(--ink);text-decoration:none;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 0 rgba(0,0,0,.18)}
+.btn.line{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.35)}
+.btn.violet{background:var(--violet);color:#fff}
+/* hero */
+.hero{margin:12px;border-radius:32px;background:var(--ink);color:#fff;position:relative;overflow:hidden;padding-bottom:40px}
+.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;pointer-events:none}
+.hero:before{width:420px;height:420px;background:var(--violet);right:-80px;top:-100px}
+.hero:after{width:300px;height:300px;background:var(--coral);left:-80px;bottom:-120px;opacity:.35}
+.hero .wrap{position:relative;z-index:1}
+header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.logo{font:800 1.5rem 'Bricolage Grotesque',sans-serif;text-decoration:none}
+.logo i{font-style:normal;background:var(--lime);color:var(--ink);padding:0 8px;border-radius:9px;margin-left:2px;display:inline-block;transform:rotate(-4deg)}
+nav{display:flex;gap:26px;align-items:center;font-weight:500}
+nav a{text-decoration:none;opacity:.75}nav a:hover{opacity:1}
+nav .btn{padding:9px 20px;opacity:1}
+.hgrid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center;padding:40px 0 20px}
+.sticker{display:inline-block;background:var(--lime);color:var(--ink);font-weight:700;padding:6px 16px;border-radius:999px;transform:rotate(-3deg);margin-bottom:22px}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5rem);font-weight:800}
+.hero p{font-size:1.2rem;opacity:.8;max-width:46ch;margin:22px 0 32px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.proof{display:flex;align-items:center;gap:12px;margin-top:30px;font-size:.95rem;opacity:.85}
+.av{display:flex}.av span{width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);margin-left:-10px;display:grid;place-items:center;font-size:1rem}
+.av span:first-child{margin:0}
+.float{position:relative;min-height:380px}
+.fc{position:absolute;width:78%;border-radius:22px;padding:18px 20px;color:var(--ink);box-shadow:0 18px 40px rgba(0,0,0,.35);animation:fl 5s ease-in-out infinite}
+.fc b{font:800 1.15rem 'Bricolage Grotesque',sans-serif;display:block;margin:6px 0 2px}
+.fc small{opacity:.75}.fc .em{font-size:2.2rem}
+.fc.a{background:var(--lime);top:0;left:0;transform:rotate(-4deg)}
+.fc.b{background:var(--sky);top:125px;right:0;transform:rotate(3deg);animation-delay:-1.6s}
+.fc.c{background:var(--pink);top:250px;left:6%;transform:rotate(-2deg);animation-delay:-3.2s}
+@keyframes fl{50%{translate:0 -12px}}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.stats div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:16px 20px}
+.stats b{font:800 2rem 'Bricolage Grotesque',sans-serif;display:block;line-height:1.1}
+.stats span{opacity:.75;font-size:.95rem}
+/* sections */
+section{padding:72px 0}
+section h2{font-size:clamp(1.9rem,4vw,3rem);font-weight:800;margin-bottom:12px}
+.lead{color:var(--muted);max-width:56ch;margin:0 0 36px;font-size:1.08rem}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.step{border-radius:var(--r);padding:28px;color:var(--ink)}
+.step:nth-child(1){background:var(--lime)}.step:nth-child(2){background:var(--sky)}.step:nth-child(3){background:var(--pink)}
+.step .em{font-size:2.6rem;display:block;margin-bottom:10px}
+.step h3{font-size:1.4rem;margin-bottom:8px}.step p{margin:0;opacity:.85}
+.tools{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px;align-items:center}
+.tools input{flex:1 1 240px;padding:13px 20px;border-radius:999px;border:2px solid var(--line);background:var(--surface);color:var(--text);font:inherit}
+.tools input:focus{border-color:var(--violet);outline:0}
+#chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:2px solid var(--line);background:var(--surface);color:var(--text);padding:9px 18px;border-radius:999px;font:600 .95rem Figtree,sans-serif;cursor:pointer;transition:.15s}
+.chip:hover{border-color:var(--violet)}
+.chip[aria-pressed=true]{background:var(--violet);border-color:var(--violet);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:22px}
+.card{background:var(--surface);border:2px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-6px);border-color:var(--violet)}
+.band{display:flex;justify-content:space-between;align-items:flex-start;padding:18px 20px;height:110px;color:var(--ink)}
+.band .em{font-size:3rem;line-height:1}
+.badge{background:rgba(255,255,255,.7);font-weight:700;font-size:.82rem;padding:4px 12px;border-radius:999px}
+.body{padding:20px;display:flex;flex-direction:column;gap:12px;flex:1}
+.card h3{font-size:1.3rem}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+.meta{display:flex;gap:14px;font-size:.9rem;font-weight:600}
+.out{background:color-mix(in srgb,var(--lime) 35%,transparent);border-radius:12px;padding:10px 14px;font-size:.92rem}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tags span{font-size:.82rem;font-weight:500;background:var(--bg);border:1px solid var(--line);padding:3px 10px;border-radius:8px;color:var(--muted)}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.slots{font-size:.85rem;color:var(--muted)}.slots i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--line);margin-right:4px}.slots i.on{background:var(--violet)}
+.card .btn{padding:10px 20px;font-size:.93rem;background:var(--violet);color:#fff}
+.card .btn[aria-pressed=true]{background:var(--lime);color:var(--ink)}
+.empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--muted);border:2px dashed var(--line);border-radius:var(--r)}
+/* portfolio */
+.folio{display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:center}
+.browser{background:var(--surface);border-radius:var(--r);box-shadow:0 30px 60px -20px rgba(107,78,255,.45);overflow:hidden;border:2px solid var(--line);transform:rotate(1.5deg)}
+.bar{display:flex;gap:6px;padding:12px 16px;background:var(--bg);align-items:center}
+.bar b{width:11px;height:11px;border-radius:50%}.bar b:nth-child(1){background:var(--coral)}.bar b:nth-child(2){background:var(--lime)}.bar b:nth-child(3){background:var(--sky)}
+.bar span{margin-left:10px;font-size:.8rem;color:var(--muted);background:var(--surface);padding:2px 14px;border-radius:99px;flex:1}
+.ph{background:linear-gradient(135deg,var(--violet),#a06bff);color:#fff;padding:26px 22px}
+.ph h3{font-size:1.5rem}.ph p{margin:6px 0 0;opacity:.85;font-size:.95rem}
+.res{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:18px 20px}
+.res div{text-align:center;background:var(--bg);border-radius:14px;padding:12px 6px}
+.res b{font:800 1.5rem 'Bricolage Grotesque',sans-serif;color:var(--violet);display:block}.res span{font-size:.8rem;color:var(--muted)}
+.quote{margin:0 20px 20px;padding:14px 16px;border-left:4px solid var(--lime);background:var(--bg);border-radius:0 12px 12px 0;font-size:.93rem;color:var(--muted)}
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tc{background:var(--surface);border:2px solid var(--line);border-radius:var(--r);padding:24px}
+.tc p{margin:0 0 18px;font-size:1.02rem}
+.who{display:flex;align-items:center;gap:12px;font-size:.92rem;color:var(--muted)}.who b{color:var(--text);display:block}
+.who span{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-size:1.3rem}
+.final{border-radius:32px;background:var(--lime);color:var(--ink);padding:64px 28px;text-align:center;position:relative;overflow:hidden}
+.final h2{max-width:20ch;margin:0 auto 14px}.final p{max-width:46ch;margin:0 auto 28px;opacity:.8;font-size:1.1rem}
+.final .btn{background:var(--ink);color:#fff}
+footer{padding:36px 0 48px;color:var(--muted);font-size:.92rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,90px);background:var(--ink);color:#fff;padding:14px 24px;border-radius:999px;transition:transform .3s;font-weight:600;z-index:9;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+.toast.on{transform:translate(-50%,0)}
+@media(max-width:860px){.hgrid,.folio{grid-template-columns:1fr}.steps,.tgrid{grid-template-columns:1fr}nav a:not(.btn){display:none}.float{min-height:370px}.stats b{font-size:1.5rem}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="hero">
+<div class="wrap">
+  <header>
+    <a class="logo" href="#">Proyek<i>in</i></a>
+    <nav><a href="#cara">Cara kerja</a><a href="#proyek">Papan proyek</a><a href="#hasil">Hasil akhir</a><a class="btn" href="#proyek">Cari proyek</a></nav>
+  </header>
+  <div class="hgrid">
+    <div>
+      <span class="sticker">Gratis untuk mahasiswa</span>
+      <h1>Portofolio kosong? Isi dengan proyek asli.</h1>
+      <p>Kerjakan proyek kecil untuk UMKM, komunitas, dan lembaga sosial. Selesai dalam beberapa minggu, langsung jadi studi kasus yang dilirik rekruter.</p>
+      <div class="cta"><a class="btn" href="#proyek">Lihat proyek terbuka</a><a class="btn line" href="#cara">Bagaimana caranya</a></div>
+      <div class="proof"><div class="av"><span style="background:#ffa3d7">👩‍💻</span><span style="background:#69cdfc">🧑‍🎨</span><span style="background:#d6f54a">👨‍💻</span><span style="background:#ff7a59">👩‍🎓</span></div>Sudah 1.200+ mahasiswa bergabung</div>
+    </div>
+    <div class="float" aria-hidden="true">
+      <div class="fc a"><span class="em">☕</span><b>Katalog online warung kopi</b><small>Semarang, 12 jam, cocok pemula</small></div>
+      <div class="fc b"><span class="em">📊</span><b>Dashboard bank sampah</b><small>Remote, 20 jam, Excel atau Python</small></div>
+      <div class="fc c"><span class="em">🎨</span><b>Logo baru toko batik</b><small>Remote, 16 jam, Figma</small></div>
+    </div>
+  </div>
+  <div class="stats"><div><b>240+</b><span>proyek terbuka</span></div><div><b>85</b><span>mitra UMKM dan komunitas</span></div><div><b>4,8/5</b><span>kepuasan klien</span></div></div>
+</div>
+</div>
+
+<main class="wrap">
+<section id="cara">
+  <h2>Dari ambil proyek sampai masuk portofolio</h2>
+  <p class="lead">Setiap proyek dipotong kecil supaya bisa selesai di sela kuliah.</p>
+  <div class="steps">
+    <div class="step"><span class="em">🔍</span><h3>Pilih proyek</h3><p>Filter berdasarkan bidang dan tingkat kesulitan. Estimasi jam dan hasil akhir sudah tertulis jelas.</p></div>
+    <div class="step"><span class="em">🤝</span><h3>Kerjakan bareng klien</h3><p>Brief jelas, check-in tiap minggu, dan mentor alumni yang mengulas pekerjaanmu.</p></div>
+    <div class="step"><span class="em">🚀</span><h3>Pajang hasilnya</h3><p>Klien memberi testimoni, kamu menulis studi kasus. Halaman portofolio dibuat otomatis.</p></div>
+  </div>
+</section>
+
+<section id="proyek">
+  <h2>Papan proyek</h2>
+  <p class="lead">Contoh proyek yang sedang mencari mahasiswa. Coba filter, cari, lalu klik “Ambil proyek”.</p>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Cari proyek atau skill, misalnya Figma" aria-label="Cari proyek">
+    <div id="chips" role="group" aria-label="Filter bidang"></div>
+  </div>
+  <div class="grid" id="grid" aria-live="polite"></div>
+</section>
+
+<section id="hasil">
+  <div class="folio">
+    <div>
+      <h2>Hasilnya bukan sekadar tugas kuliah</h2>
+      <p class="lead">Rekruter lebih percaya pada proyek dengan klien nyata, angka dampak, dan testimoni. Itu yang kamu bawa pulang dari sini.</p>
+      <a class="btn violet" href="#proyek">Mulai kumpulkan bukti kerja</a>
+    </div>
+    <div class="browser" aria-label="Contoh halaman portofolio">
+      <div class="bar"><b></b><b></b><b></b><span>namakamu.github.io/portofolio</span></div>
+      <div class="ph"><h3>Katalog online Kopi Pak Dedi</h3><p>Studi kasus UI dan web, 6 minggu</p></div>
+      <div class="res"><div><b>+38%</b><span>pesanan WhatsApp</span></div><div><b>12 jam</b><span>waktu kerja</span></div><div><b>5/5</b><span>nilai klien</span></div></div>
+      <div class="quote">“Sekarang pelanggan tinggal klik menu, tidak perlu tanya satu-satu.” Pak Dedi, pemilik warung</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Kata mereka yang sudah coba</h2>
+  <p class="lead">Contoh cerita dari mahasiswa yang mendapat portofolio pertamanya.</p>
+  <div class="tgrid">
+    <div class="tc"><p>“Dulu portofolioku cuma tugas kelompok. Sekarang ada klien asli dan angka hasilnya.”</p><div class="who"><span style="background:#ffa3d7">👩‍💻</span><div><b>Salsa</b>Informatika, semester 5</div></div></div>
+    <div class="tc"><p>“Mentornya mengulas desainku dengan detail. Belajarnya lebih banyak daripada di kelas.”</p><div class="who"><span style="background:#69cdfc">🧑‍🎨</span><div><b>Rizky</b>DKV, semester 6</div></div></div>
+    <div class="tc"><p>“Ditanya soal pengalaman saat interview magang, aku langsung punya cerita proyek.”</p><div class="who"><span style="background:#d6f54a">👨‍💻</span><div><b>Bima</b>Sistem Informasi, semester 7</div></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="final">
+    <h2>Satu proyek kecil bisa mengubah isi portofoliomu</h2>
+    <p>Daftar sebagai mahasiswa, atau tawarkan proyek dari usaha dan komunitasmu.</p>
+    <a class="btn" href="#proyek">Daftar gratis</a>
+  </div>
+</section>
+</main>
+
+<footer class="wrap"><span>Proyekin, prototipe tampilan untuk GitHub Pages</span><span>Dibuat untuk mahasiswa Indonesia</span></footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const C={Web:['#d6f54a','💻'],Data:['#69cdfc','📊'],Desain:['#ffa3d7','🎨'],Konten:['#ffb199','📱']};
+const P=[
+{id:1,e:'☕',t:'Katalog online untuk warung kopi',c:'Web',k:'UMKM',lok:'Semarang',h:12,l:'Pemula',s3:[1,3],d:'Buat katalog menu satu halaman dengan tombol pesan lewat WhatsApp.',o:'Situs statis dan studi kasus peningkatan pesanan',s:['HTML','CSS','Figma']},
+{id:2,e:'♻️',t:'Dashboard donasi bank sampah',c:'Data',k:'Komunitas',lok:'Remote',h:20,l:'Menengah',s3:[2,3],d:'Rapikan catatan setoran warga dan tampilkan rekap bulanan dalam grafik.',o:'Dashboard interaktif dan laporan dampak',s:['Excel','Python','Chart']},
+{id:3,e:'🧵',t:'Rebranding logo toko batik',c:'Desain',k:'UMKM',lok:'Remote',h:16,l:'Pemula',s3:[0,2],d:'Perbarui logo, palet warna, dan template kemasan untuk toko batik keluarga.',o:'Panduan merek 4 halaman dan mockup kemasan',s:['Illustrator','Figma']},
+{id:4,e:'🏠',t:'Konten Instagram panti asuhan',c:'Konten',k:'Lembaga sosial',lok:'Remote',h:14,l:'Pemula',s3:[1,2],d:'Susun kalender konten 1 bulan dan 12 desain unggahan untuk galang donasi.',o:'Kalender konten dan data jangkauan',s:['Canva','Copywriting']},
+{id:5,e:'🏥',t:'Sistem antrean klinik desa',c:'Web',k:'Lembaga sosial',lok:'Jawa Tengah',h:30,l:'Lanjut',s3:[1,3],d:'Bangun formulir pendaftaran pasien dan tampilan daftar antrean harian.',o:'Aplikasi web kecil dan dokumentasi teknis',s:['JavaScript','Firebase']},
+{id:6,e:'🧱',t:'Analisis penjualan toko bangunan',c:'Data',k:'UMKM',lok:'Semarang',h:18,l:'Menengah',s3:[0,1],d:'Cari produk paling laku dan musim ramai dari nota 1 tahun terakhir.',o:'Notebook analisis dan rekomendasi stok',s:['SQL','Python']},
+{id:7,e:'🌾',t:'Video profil koperasi petani',c:'Konten',k:'Komunitas',lok:'Temanggung',h:22,l:'Menengah',s3:[2,2],d:'Rekam dan edit video 2 menit tentang proses panen sampai penjualan.',o:'Video profil dan naskah',s:['Video','Editing']},
+{id:8,e:'🛡️',t:'UI aplikasi jadwal ronda digital',c:'Desain',k:'Komunitas',lok:'Remote',h:15,l:'Menengah',s3:[1,2],d:'Rancang alur dan layar aplikasi jadwal ronda untuk 1 RW.',o:'Prototipe Figma dan hasil uji pengguna',s:['Figma','UX']}
+];
+const cats=['Semua',...Object.keys(C)];let cat='Semua',q='';const taken=new Set();
+const $=s=>document.querySelector(s);
+cats.forEach(c=>{const b=document.createElement('button');b.className='chip';b.textContent=(C[c]?C[c][1]+' ':'✨ ')+c;b.setAttribute('aria-pressed',c==='Semua');b.onclick=()=>{cat=c;[...$('#chips').children].forEach(x=>x.setAttribute('aria-pressed',x===b));render()};$('#chips').appendChild(b)});
+$('#q').oninput=e=>{q=e.target.value.toLowerCase();render()};
+const esc=s=>s.replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+function render(){
+  const list=P.filter(p=>(cat==='Semua'||p.c===cat)&&(p.t+p.d+p.s.join(' ')).toLowerCase().includes(q));
+  $('#grid').innerHTML=list.length?list.map(p=>{const[n,tot]=p.s3;const on=taken.has(p.id);
+  return `<article class="card"><div class="band" style="background:${C[p.c][0]}"><span class="em">${p.e}</span><span class="badge">${esc(p.k)}</span></div>
+  <div class="body"><h3>${esc(p.t)}</h3><div class="meta"><span>📍 ${esc(p.lok)}</span><span>⏱ ${p.h} jam</span></div>
+  <p>${esc(p.d)}</p><div class="out">🎯 <b>Hasil untuk portofolio:</b> ${esc(p.o)}</div>
+  <div class="tags">${p.s.map(x=>`<span>${esc(x)}</span>`).join('')}<span>${p.l}</span></div>
+  <div class="foot"><span class="slots">${Array.from({length:tot},(_,i)=>`<i class="${i<n?'on':''}"></i>`).join('')}${n} dari ${tot} slot terisi</span>
+  <button class="btn" data-id="${p.id}" aria-pressed="${on}">${on?'Sudah diambil ✓':'Ambil proyek'}</button></div></div></article>`}).join(''):'<div class="empty">Belum ada proyek yang cocok. Coba kata kunci lain atau pilih Semua.</div>';
+  document.querySelectorAll('.card .btn').forEach(b=>b.onclick=()=>{const id=+b.dataset.id;taken.has(id)?taken.delete(id):taken.add(id);toast(taken.has(id)?'Proyek diambil. Klien akan menghubungimu.':'Proyek dilepas.');render()});
+}
+let tt;function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>t.classList.remove('on'),2200)}
+render();
+</script>
+</body>
+</html>
