@@ -1,6 +1,6 @@
 # Produk Tahap 3
 
-Empat website statis (HTML, CSS, dan JavaScript tanpa framework) yang dibangun dari ide pilihan Kelompok 3. Semua bisa dibuka langsung di browser dan di-hosting gratis di GitHub Pages.
+Lima website statis (HTML, CSS, dan JavaScript tanpa framework) yang dibangun dari ide pilihan Kelompok 3. Semua bisa dibuka langsung di browser dan di-hosting gratis di GitHub Pages.
 
 | Produk | Deskripsi singkat | Masalah | Website |
 |---|---|---|---|
