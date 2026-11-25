@@ -7,4 +7,4 @@ Empat website statis (HTML, CSS, dan JavaScript tanpa framework) yang dibangun d
 | BOOKITA | Booking salon online dengan slot real-time dan dashboard admin | No. 37 | [Buka](https://belaivanto-coder.github.io/bookita-salon.booking/) |
 | Proyekin | Platform proyek nyata dari UMKM dan komunitas untuk portofolio mahasiswa | No. 20 | [Buka](https://nisazkasyaulahapsari-tech.github.io/s/) |
 | LOKA | Dashboard pesanan dari semua kanal penjualan dalam satu tempat | No. 46 | [Buka](https://shabrinaa21.github.io/Loka/) |
-| KerjaKita | ... | No. ... | [Buka](...) |
+| KerjaKita | Dashboard Mencari Pekerjaan Parttime | No. 22 | [Buka]( https://alyciasandra.github.io/Lab.-Pemrograman/) |
