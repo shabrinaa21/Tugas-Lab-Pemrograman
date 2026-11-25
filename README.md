@@ -77,8 +77,8 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 
 ## Seleksi 20 Masalah 
 
-| Rank | ID | Business Problem | Score |
-|:----:|:--:|------------------|:-----:|
+| Rank | ID | Business Problem 
+|:----:|:--:|------------------|
 | 1 | 37 |Salon sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual 
 | 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal 
 | 3 | 31 | Makanan tidak terjual sulit disalurkan ke pembeli diskon 
@@ -104,8 +104,8 @@ https://docs.google.com/document/d/1iskAtfT8dUO455UgJoEr6dax8eNVRJcTEmLZxcjr2pQ/
 Pada tahap ini, 50 masalah diseleksi menggunakan lima kriteria penilaian, yaitu kesesuaian solusi produk, kesediaan pengguna untuk membayar, intensitas persaingan, bukti permintaan pasar, dan kemudahan promosi, dengan skala 1-5. Dari penilaian tersebut, 5 masalah dinyatakan layak, 19 dapat dipertimbangkan, dan 26 dinilai kurang layak.
 
 ## TOP 5 Permasalahan
-| Rank | ID | Business Problem | Score |
-|:----:|:--:|------------------|:-----:|
+| Rank | ID | Business Problem 
+|:----:|:--:|-----------------
 | 1 | 37 | Salon sering mengalami bentrok jadwal (double booking) dan pelanggan tidak hadir (no-show) akibat sistem reservasi manual 
 | 2 | 46 | Pesanan UMKM tercecer dari berbagai kanal 
 | 3 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi 
