@@ -1,4 +1,4 @@
-# BOOKITA v2 — Customer Booking + Admin Dashboard
+# BOOKITA — Customer Booking + Admin Dashboard
 
 BOOKITA v2 adalah prototype web app salon dengan dua sisi:
 - `index.html`: website pelanggan untuk melihat layanan, memilih stylist, tanggal dan slot, membuat reservasi, serta mengecek booking.
