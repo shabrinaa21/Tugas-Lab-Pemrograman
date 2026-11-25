@@ -111,3 +111,6 @@ Pada tahap ini, 50 masalah diseleksi menggunakan lima kriteria penilaian, yaitu 
 | 3 | 22 | Kesulitan menemukan pekerjaan part-time terverifikasi 
 | 4 | 20 | Mahasiswa kesulitan menemukan proyek nyata untuk portofolio 
 | 5 | 7 | Kesulitan menemukan roommate yang cocok 
+
+Prototype Produk
+
